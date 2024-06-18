@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Virtual Paulo Roberto</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div class="banner">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="Loja Virtual Paulo" width="125px">
-                </div>
-                <nav>
-                    <ul id="MenuItens">
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="">Empresa</a></li>
-                        <li><a href="">Contatos</a></li>
-                        <li><a href="">Minha Conta</a></li>
-                    </ul>
-                </nav>
-                <img src="assets/img/carrinho.png" alt="" width="30px" height="30px">
-                <img src="assets/img/menu.png" alt="" class="menu-celular" onclick="menucelular()">
-            </div>
+<?php require_once('header.php') ?>
+
             <div class="linha">
                 <div class="col-2">
                     <h1>Escolha um, novo <br>estilo de vida! </h1>
@@ -298,52 +273,4 @@
         </div>
     </div>
 
-    <footer class="rodape">
-
-        <div class="container">
-            <div class="linha">
-                <div class="rodape-col-1">
-                    <h3>Baixe o nosso app</h3>
-                    <p>Baixe nosso aplicativo nas melhores plataformas.</p>
-                    <div class="app-logo">
-                        <img src="assets/img/google.png" alt="">
-                        <img src="assets/img/apple.png" alt="">
-                    </div>
-                </div>
-                <div class="rodape-col-2">
-                    <img src="assets/img/logo-2.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur ad</p>
-                </div>
-                <div class="rodape-col-3">
-                    <h3>Mais Informações</h3>
-                    <ul>
-                        <li>Cupons</li>
-                        <li>Blog</li>
-                        <li>Plítica de Privacidade</li>
-                        <li>Contatos</li>
-                    </ul>
-                </div>
-                <div class="rodape-col-4">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-                        <li>Twitter</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="direitos">
-                &#169; Todos os direitos reservados a Paulo Roberto 2024.
-            </p>
-        </div>
-
-    </footer>
-
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>     
-    <script src="assets/js/app.js"></script>
-</body>
-</html>
+   <?php require_once('footer.php')?>
