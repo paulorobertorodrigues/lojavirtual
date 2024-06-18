@@ -343,6 +343,78 @@ ul{
     color: var(--cor-fonte);
 }
 
+.ver-produto{
+    margin-top: 40px;
+}
+.ver-produto .col-2 img{
+    width: 100%;
+    padding: 0;
+}
+.ver-produto #produtoImg{
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+.ver-produto .col-2{
+    padding: 20px;
+}
+.ver-produto h4{
+
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ver-produto select{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-padrao);
+}
+.ver-produto select:focus{
+    outline: none;
+}
+.ver-produto input{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid var(--cor-padrao);
+
+}
+.ver-produto input:focus{
+    outline: none;
+}
+.ver-produto .btn{
+    border: none;
+    background-color: var(--cor-padrao);
+    height: 42px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ver-produto .btn:hover{
+    background-color: var(--cor-btn-hover);
+}
+.ver-produto p{
+    font-size: 13px;
+}
+
+.img-linha{
+    display: flex;
+    justify-content: space-between;
+}
+.img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width:800px) {
     nav ul{
         position: absolute;
@@ -371,6 +443,14 @@ ul{
     .novoMenu nav ul li a{
         color: var(--cor-fonte);
     }
+    .ver-produto .linha{
+        text-align: left;
+    }
+  
+    .ver-produto h1{
+        font-size: 26px;
+        line-height: 26px;
+    }
 }
 @media only screen and(max-width:600px) {
 
@@ -394,5 +474,9 @@ ul{
     .novoMenu nav ul li a{
         color: var(--cor-fonte);
     }
+    .ver-produto .col-2{
+        margin: 20px 0;
+    }
+   
 
 }
