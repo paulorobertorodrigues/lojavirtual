@@ -35,98 +35,41 @@
         </div>
     </div>
 
-    <div class="corpo-categoria carrinho-compras">
+    <div class="minha-conta">
+        <div class="container">
+            <div class="linha">
+                <div class="col-2">
 
-        <table>
-            <tr>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Valor</th>
-            </tr>
+                    <img src="assets/img/banner-1.png" alt="" width="100%">
 
-
-
-            <tr>
-                <td>
-                    <div class="info-carrinho">
-                        <img src="assets/img/carrinho-1.jpg" alt="">
-
-                        <div>
-                            <p>Curso Loja Virtual</p>
-                            <small>Valor: R$ 777</small>
-                            <br>
-                            <a href="" title="">Remover</a>
+                </div>
+                <div class="col-2">
+                    <div class="fomulario">
+                        <div class="btn-form">
+                            <span onclick="Entrar()">Entrar</span>
+                            <span onclick="Cadastro()">Cadastro</span>
+                            <hr id="Indicador">
                         </div>
+
+                        <form action="" method="post" id="EntrarPainel">
+                            <input type="email" name="email" id="" placeholder="E-mail de acesso">
+                            <input type="password" name="senha" id="" placeholder="Digite sua senha">
+                            <button type="submit" name="senEntrar" class="btn">Entrar</button>
+                            <a href="" title="">Esqueceu sua senha?</a>
+                        </form>
+
+                        
+                        <form action="" method="post" id="CadastroSite">
+                            <input type="text" name="nome" id="" placeholder="Nome Completo">
+                            <input type="email" name="email" id="" placeholder="E-mail de acesso">
+                            <input type="password" name="senha" id="" placeholder="Digite sua senha">
+                            <button type="submit" name="sendCad" class="btn">Cadastre-se</button>
+                        </form>
                     </div>
-                </td>
-                <td>
-                    <form action="" method="post">
-                        <input type="number" name="" id="" value="1">
-                    </form>
-                </td>
-                <td>R$ 777</td>
-            </tr>
-
-            <tr>
-                <td>
-                    <div class="info-carrinho">
-                        <img src="assets/img/carrinho-2.jpg" alt="">
-
-                        <div>
-                            <p>Curso Loja Virtual</p>
-                            <small>Valor: R$ 777</small>
-                            <br>
-                            <a href="" title="">Remover</a>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <form action="" method="post">
-                        <input type="number" name="" id="" value="1">
-                    </form>
-                </td>
-                <td>R$ 777</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="info-carrinho">
-                        <img src="assets/img/carrinho-3.jpg" alt="">
-
-                        <div>
-                            <p>Curso Loja Virtual</p>
-                            <small>Valor: R$ 777</small>
-                            <br>
-                            <a href="" title="">Remover</a>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <form action="" method="post">
-                        <input type="number" name="" id="" value="1">
-                    </form>
-                </td>
-                <td>R$ 777</td>
-            </tr>
-        </table>
-
-        <div class="valor-total">
-            <table>
-                <tr>
-                    <td>Sub-Total</td>
-                    <td>R$ 700</td>
-                </tr>
-                <tr>
-                    <td>Frete</td>
-                    <td>R$ 77</td>
-                </tr>
-                <tr>
-                    <td>Total</td>
-                    <td>R$ 777</td>
-                </tr>
-            </table>
+                </div>
+            </div>
         </div>
 
-    </div>
 
 
     <footer class="rodape">
@@ -175,7 +118,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 
 </html>
