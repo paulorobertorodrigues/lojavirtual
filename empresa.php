@@ -1,6 +1,7 @@
 <?php require_once("header-index.php");?>
 
-            <div class="linha">
+
+<div class="linha">
                 <div class="col-2">
                     <h1>Escolha um, novo <br>estilo de vida! </h1>
                     <p>Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
@@ -35,7 +36,7 @@
 
         <div class="linha">
             <div class="col-4">
-                <a href="ver-produto.php" title=""> 
+                <a href="ver-produto.html" title=""> 
                     <img src="assets/img/produto-1.jpg" alt="">
                 </a>
                 <h4>Curso Cobranças Recorrentes</h4>
@@ -276,4 +277,5 @@
     </div>
 
 
-    <?php require_once("footer.php"); ?>
+
+<?php require_once("footer.php");?>
